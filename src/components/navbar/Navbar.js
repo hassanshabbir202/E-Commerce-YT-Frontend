@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const showNavigationMenu = () => {
     document.querySelector(".showhamburgerdiv").style.left = "-2.6%";
@@ -19,18 +20,18 @@ const Navbar = () => {
               <h2>Exclusive</h2>
             </div>
             <div className="links-div">
-              <a href="#" className="navLink">
+              <Link to="/" className="navLink">
                 Home
-              </a>
-              <a href="#" className="navLink">
+              </Link>
+              <Link to="/contact" className="navLink">
                 Contact
-              </a>
-              <a href="#" className="navLink">
+              </Link>
+              <Link to="/about" className="navLink">
                 About
-              </a>
-              <a href="#" className="navLink">
+              </Link>
+              <Link to="/signup" className="navLink">
                 Sign Up
-              </a>
+              </Link>
             </div>
             <div className="input-and-icons-div">
               <div className="input-div">

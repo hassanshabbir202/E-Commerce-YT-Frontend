@@ -1,12 +1,12 @@
-import React from 'react'
-import HeroSection from '../components/heroSection/HeroSection'
+import React from "react";
+import Home from "../components/home/Home";
 
 const HomeScreen = () => {
   return (
-    <div>
-      <HeroSection/>
-    </div>
-  )
-}
+    <>
+      <Home />
+    </>
+  );
+};
 
-export default HomeScreen
+export default HomeScreen;

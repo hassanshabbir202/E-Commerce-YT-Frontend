@@ -1,11 +1,26 @@
 import React from "react";
 import "./HeroSection.css";
+import bannerImg from "../../assets/bannerImg.png"
 
 const HeroSection = () => {
   return (
     <div className="hero-section-main-container">
       <div className="hero-section-main">
-        <div className="filtersDiv"></div>
+        <div className="filtersDiv">
+ 
+          <div className="filterLinks">
+          <a href="#">Woman’s Fashion</a>
+           <a href="#">Men’s Fashion</a>
+           <a href="#">Electronics</a>
+           <a href="#">Home & Lifestyle</a>
+           <a href="#">Medicine</a>
+           <a href="#">Sports & Outdoor</a>
+           <a href="#">Baby’s & Toys</a>
+           <a href="#">Groceries & Pets</a>
+           <a href="#">Health & Beauty</a>
+          </div>
+
+        </div>
         <div className="sliderDiv">
           <div
             id="carouselExampleIndicators"
@@ -17,25 +32,25 @@ const HeroSection = () => {
               <div class="carousel-item active">
                 <img
                   class="d-block w-100"
-                  src="https://assets.mspimages.in/wp-content/uploads/2021/08/redmibook-2-1-1.png"
-                  style={{height:'500px'}}
+                  src={bannerImg}
+                  style={{height:'370px'}}
                   alt="First slide"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   class="d-block w-100"
-                  src="https://assets.mspimages.in/wp-content/uploads/2021/08/redmibook-2-1-1.png"
+                  src={bannerImg}
                   alt="Second slide"
-                  style={{height:'500px'}}
+                  style={{height:'370px'}}
                 />
               </div>
               <div class="carousel-item">
                 <img
                   class="d-block w-100"
-                  src="https://assets.mspimages.in/wp-content/uploads/2021/08/redmibook-2-1-1.png"
+                  src={bannerImg}
                   alt="Third slide"
-                  style={{height:'500px'}}
+                  style={{height:'370px'}}
                 />
               </div>
             </div>

@@ -1,20 +1,37 @@
-.hero-section-main-container{
-    display: flex;
-    justify-content: center;
+.hero-section-main-container {
+  display: flex;
+  justify-content: center;
 }
-.hero-section-main{
-    display: flex;
-    width: 80%;
-    margin-top: 2rem;
+.hero-section-main {
+  display: flex;
+  width: 80%;
+  margin-top: 2rem;
 }
-.filtersDiv{
-    height: 40vh;
-    width: 25%;
-    /* background-color: red; */
-    border-right: 1px solid #e4e4e4;
+.filtersDiv {
+  height: 40vh;
+  width: 20%;
+  /* background-color: red; */
+  border-right: 1px solid #e4e4e4;
 }
-.sliderDiv{
-    height: 40vh;
-    width: 80%;
-    /* background-color: blue; */
+.sliderDiv {
+  height: 40vh;
+  width: 80%;
+  /* background-color: blue; */
+  margin-left: 4rem;
+}
+
+.filterLinks {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.filterLinks a{
+    color: #0c0c0c;
+    text-decoration: none;
+}
+.filterLinks a:hover{
+    color: #4c3c3c;
 }
